@@ -17,6 +17,9 @@ public class TestApplication {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("test");
+        for (int i = 0; i < 10; i++) {
+            System.out.println("value of i is " + i);
+        }
     }
     
 }
